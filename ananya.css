@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  background: black;
+}
+
+@font-face {
+  font-family: SickFuture;
+  src: url(sickfuture.ttf);
+}
+
+.page-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 115px;
+  font-family: 'SickFuture';
+  color: #8000ff;
+  text-shadow:
+		-2px -2px 0 #330033,
+		2px -2px 0 #330033,
+		-2px 2px 0 #330033,
+		2px 2px 0 #330033;
+  background-color:;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-height: 460px;
+  overflow: hidden;
+  text-indent: -50%;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+}
+
+audio {
+  height: 75px;
+  width: 1000px;
+}
+
+.description {
+  color: white;
+  font: 'Helvetica';
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+footer {
+  color: white;
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+footer img {
+  margin: 20px;
+}

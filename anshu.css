@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  background: white;
+}
+
+.one {
+  float: left;
+  width: 300px;
+  padding: 10px;
+}
+nav {
+  padding: 10px 0;
+  margin: 2rem;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(0,0,0, .8);
+}
+
+nav li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.two {
+  text-align: center;
+}
+
+.seven {
+  text-align: left;
+}
+
+.eight {
+  text-align: left;
+}
+
+footer {
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+footer img {
+  margin: 20px;
+}
